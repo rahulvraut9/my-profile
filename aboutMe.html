@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
     <style>
         table,tr,th,td{
             border: 2px solid rgb(4, 80, 181) ;
@@ -11,6 +11,17 @@
         }
         img{
             width: 250px;
+        }
+        h2{
+            color: dodgerblue;
+        }
+        .padd tr th,td{
+            padding: 3px 10px;
+            text-align: center;
+        }
+        .space li{
+            margin-bottom: 4px;
+            
         }
     </style>
 </head>
@@ -23,7 +34,7 @@
     <p><strong>Email:</strong>martanddhamdhere@dhol.com</p>
     <hr>
     <h2>My Technology Stack</h2>
-    <ul>
+    <ul class="space">
         <li>Html</li>
         <li>Css</li>
         <li>JavaScript</li>
@@ -32,7 +43,7 @@
     <hr>
     <h2>Acadamic Details</h2>
     <table>
-        <thead>
+        <thead class="padd">
             <tr>
                 <th>SrNo</th>
                 <th>Acadamic</th>
@@ -40,7 +51,7 @@
                 <th>University/Board</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="padd">
             <tr>
                 <td>1</td>
                 <td>Graduation</td>
