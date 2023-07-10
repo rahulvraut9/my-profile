@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssDisplay</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+            /* border: 1px solid orange ; */
+        }
+        #learn{
+            display: inline;
+        }
+        .depth{
+            margin: 0;
+            display: inline;
+        }
+        .ang{
+            color: tomato;
+            border: 2px solid tomato;
+            display: inline-block;
+            width: 200px;
+            /* display: block; if display property is block then only we can apply width height 
+            inline not supports width and height proprty */
+        }
+        .node{
+            color: rgb(23, 218, 43);
+            border: 2px solid rgb(23, 218, 43);
+            display: inline-block;
+        }
+        .list li{
+            display: inline-block;
+            width: 100px;
+            height: 20px;
+            border: 2px solid tomato;
+            margin-right: 150px;
+        }
+        #hide{
+            display: none;
+        }
+        .para1{
+            border: 2px solid tomato;
+            width: 100px;
+            height: 60px;
+        }
+        .para2{
+            border: 2px solid tomato;
+            width: 100px;
+            height: 60px;
+            visibility: hidden;
+        }
+        .para3{
+            border: 2px solid tomato;
+            width: 100px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="learn">Learning CSS Display</h2>
+    <p class="depth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo.</p>
+    <span class="ang">Angular</span>
+    <span class="node">Node</span>
+    <h2>My Text List</h2>
+    <ul class="list">
+        <li >Text 1</li>
+        <li id="hide">Text 2</li>
+        <li>Text 3</li>
+        <li>Text 4</li>
+    </ul>
+   <p class="para1">Para 1</p>
+   <p class="para2">Para 2</p>
+   <p class="para3">Para 2</p>
+</body>
+</html>

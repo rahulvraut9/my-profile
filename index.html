@@ -11,45 +11,53 @@
             background-color: aqua;
             color: chocolate;
         }
-        a{
-            text-decoration: none;
-        }
         .padd{
             padding-right: 40px;
             text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;     
+        }
+        .padd li{
+            display: inline-block;
         }
         .cadd{
-            padding-right: 40px;
-            
+            padding-right: 40px; 
+            display: block;    
+            background-color: aqua;
+            /* width: max-content;   */
+            margin: 0;    
         }
-        .space a{
+        .cadd li{
+            display: inline-block;
+            color: chocolate;
+        }  
+        .space li{
             margin-right: 30px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <br> 
-    <header class="cadd">
-        <i class="fa fa-user cadd" aria-hidden="true"> &nbsp; Rahul Raut</i>  
-        <i class="fa  fa-mobile cadd" aria-hidden="true"> &nbsp; +91 1234567890</i>  
-        <i class="fa  fa-envelope cadd" aria-hidden="true"> &nbsp; rahulraut@dummymail.com</i>
-        <a href="/assets/developer.png" class="cadd" download> <button>Download Resume</button></a>
-    </header>
+    <ul class="cadd">
+        <li> <i class="fa fa-user cadd" aria-hidden="true"> &nbsp; Rahul Raut</i> </li>
+        <li> <i class="fa fa-mobile cadd" aria-hidden="true"> &nbsp; +91 1234567890</i> </li>
+        <li> <i class="fa fa-envelope cadd" aria-hidden="true"> &nbsp; rahulraut@dummymail.com</i> </li>
+        <li> <a href="/assets/developer.png" class="cadd" download> <button>Download Resume</button></a> </li>
+    </ul>
     <br>
-    <nav class="padd">
-        <a href="home.html" class="padd"target="myframe">Home</a> 
-        <a href="techStack.html" class="padd"target="myframe">TECHSTACK</a>  
-        <a href="project.html" class="padd" target="myframe">PROJECT</a> 
-        <a href="education.html" class="padd" target="myframe">EDUCATION</a>  
-        <a href="aboutMe.html"class="padd"  target="myframe">ABOUTME</a>  
-       
-    </nav>
-    <br>
+    <ul class="padd">
+        <li> <a href="home.html" class="padd"target="myframe">Home</a> </li>
+        <li> <a href="techStack.html" class="padd"target="myframe">techStack</a> </li>
+        <li> <a href="project.html" class="padd" target="myframe">Project</a> </li>
+        <li> <a href="education.html" class="padd" target="myframe">education</a>  </li>
+        <li> <a href="aboutMe.html"class="padd"  target="myframe">aboutMe</a> </li>
+    </ul>
     <iframe src="home.html" width="800px" height="480px" frameborder="0" name="myframe"></iframe>
-    <br>
     <footer>
-        <span class="space">Follow Me
-        <a href="https://github.com/rahulvraut9"><i class="fa fa-github-square" aria-hidden="true"></i></a> 
-        <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </span>
+        <ul class="space">Follow Me
+            <li> <a href="https://github.com/rahulvraut9"><i class="fa fa-github-square" aria-hidden="true"></i></a> </li>
+            <li> <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </li>
+        </ul>
+    </footer>
 </body>
 </html>

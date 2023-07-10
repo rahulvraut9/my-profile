@@ -36,13 +36,19 @@
         text-transform: capitalize;
         font-weight: bolder;
     }
+    .dummy li{
+            list-style-type: circle;
+        }
+        .fruits li{
+            list-style-type: upper-roman; /*  lower-alpha | upper-alpha */
+        }
     </style>
 </head>
 <body>
     <h2 style="color:brown; text-transform: uppercase; text-decoration: underline;">My Personal details</h2>
     <p style="color: yellowgreen;font-weight: bolder; font-size: larger;">Lorem ipsum dolor sit amet consectetur.</p>
     <h3 id="summry">Professional Summry</h3>
-    <ul>
+    <ul class="dummy">
         <li>Lorem ipsum dolor sit.</li>
         <li id="back1">Lorem ipsum dolor sit amet.</li>
         <li id="back2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -50,7 +56,7 @@
     </ul>
     <h3>My <span id="add">Permanat</span> Address</h3>
     <h2>Class</h2>
-    <ol>
+    <ol class="fruits">
         <li>Avinash</li>
         <li class="student">Abhilash</li>
         <li class="student">Abhinahy</li>
