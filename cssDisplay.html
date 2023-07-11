@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CssDisplay</title>
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet"><style>
         *{
             /* margin: 0; */
             padding: 0;
@@ -16,19 +18,20 @@
         .depth{
             margin: 0;
             display: inline;
+            font-family: 'Signika Negative', sans-serif;
         }
         .ang{
             color: tomato;
             border: 2px solid tomato;
             display: inline-block;
             width: 200px;
-            /* display: block; if display property is block then only we can apply width height 
-            inline not supports width and height proprty */
+            font-family: 'Signika Negative', sans-serif; /* display: block; if display property is block then only we can apply width height inline not supports width and height proprty */
         }
         .node{
             color: rgb(23, 218, 43);
             border: 2px solid rgb(23, 218, 43);
             display: inline-block;
+            font-family: 'Signika Negative', sans-serif;
         }
         .list li{
             display: inline-block;
@@ -36,6 +39,7 @@
             height: 20px;
             border: 2px solid tomato;
             margin-right: 150px;
+            font-family: 'Signika Negative', sans-serif;
         }
         #hide{
             display: none;
@@ -56,22 +60,28 @@
             width: 100px;
             height: 60px;
         }
+        .gfont{
+           font-family: 'Signika Negative', sans-serif; 
+        }.Poppins{
+            font-family: 'Poppins', sans-serif;
+        }
     </style>
 </head>
 <body>
-    <h2 id="learn">Learning CSS Display</h2>
+    <h2 class="Poppins" id="learn">Learning CSS Display</h2>
     <p class="depth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, illo.</p>
     <span class="ang">Angular</span>
     <span class="node">Node</span>
-    <h2>My Text List</h2>
+    <h2 class="Poppins">My Text List</h2>
     <ul class="list">
         <li >Text 1</li>
         <li id="hide">Text 2</li>
         <li>Text 3</li>
         <li>Text 4</li>
     </ul>
-   <p class="para1">Para 1</p>
-   <p class="para2">Para 2</p>
-   <p class="para3">Para 2</p>
+   <p class="para1 gfont">Para 1</p>
+   <p class="para2 gfont">Para 2</p>
+   <p class="para3 gfont">Para 2</p>
+   <p class="gfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati doloremque esse quidem iusto autem minima, nam dolore corporis. Sint, sapiente vel inventore non dolore illum soluta modi praesentium laboriosam. Vel.</p>
 </body>
 </html>

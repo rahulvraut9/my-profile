@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet"><style>
         table,tr,th,td{
             border: 1px solid rgb(31, 217, 28);
             border-collapse: collapse;
         }
         h2{
             color: dodgerblue;
+            font-family: 'Poppins', sans-serif;
         }
-        .padd th,td{
+        .padd tr td{
             padding: 3px 10px;
+            font-family: 'Signika Negative', sans-serif;
+            text-align: center;
+        }
+        .padd tr th{
+            padding: 3px 10px;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
         }
     </style>
@@ -22,15 +31,15 @@
     <h2>Education Details</h2>
     <br>
     <table>
-        <thead>
-            <tr class="padd">
+        <thead class="padd">
+            <tr>
                 <th>SrNo</th>
                 <th>Course</th>
                 <th>Collage</th>
                 <th>University</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="padd">
             <tr>
                 <td>1</td>
                 <td>SSC</td>
