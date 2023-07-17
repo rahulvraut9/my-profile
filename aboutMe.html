@@ -7,7 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet"><style>
-        table,tr,th,td{
+       tbody tr:hover{
+        background-color: rgb(244, 177, 130);
+      }
+      tr:nth-child(even){
+        background-color: brown;
+      }
+      tr:last-child{
+        background-color: aqua;
+      }
+       table,tr,th,td{
             border: 2px solid rgb(4, 80, 181) ;
             border-collapse: collapse;
         }
@@ -27,6 +36,7 @@
             padding: 3px 10px;
             text-align: center;
             font-family: 'Signika Negative', sans-serif;
+            
         }
         .space li{
             margin-bottom: 4px;

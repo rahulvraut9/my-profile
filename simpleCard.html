@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <style>
+        ul li a:hover{
+            color:burlywood
+        }
+        .photo{
+            display: inline-block;
+        }
+        .content{
+            display: inline-block;
+        }
+        img{
+            width: 300px;
+        }
+        .container{
+            border: 1px solid black;
+            box-shadow: inset;
+            box-shadow: 30px;
+            margin-left: 25%;
+            background-color: rgb(69, 66, 244);
+            width: 800px;
+        }
+        .points li{
+            padding: 8px;  
+            list-style-type: none;       
+            color: white;   
+            font-family: 'Signika Negative', sans-serif;
+        }
+        .points li::before{
+            content: "👉🏻";
+        }
+        .points:hover{
+            background-color: cadetblue;
+        }
+        h2{
+            margin-bottom: 3px;
+            font-family: 'Alegreya', serif;
+        }
+         input[type="text"]{
+        background-color: aqua;
+        }
+        label{
+            display: block;
+            margin-left: 90px;
+        }
+        .font{
+            padding: 20px;
+            margin: 20px;
+        }
+        #id{
+            margin-left: 115px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="assets/programer.png" alt="">
+            <label><i class="fa fa-podcast" aria-hidden="true"> &nbsp; </i> Powered By</label>
+            <label id="id">JsoftwareLab</label>
+            <label class="font" for="">Follow Me:</label>
+            <span></span>
+
+
+        </div>
+        <div class="content">
+            <h2>Compare Text Online</h2> 
+            <ul class="points">
+                <li>Compare Text Online Free</li>
+                <li>Supports Large file comprasion</li>
+                <li>Ignore order and namespaces</li>
+                <li>Side by side diff view</li>
+                <li>Get result in tabular format for quick reference</li>
+                <li>Text diff Tool</li>
+                <li>Rest API</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

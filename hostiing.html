@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+    <style>
+        .div1,.div2,.div3{
+            height: 350px;
+            width: 300px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 7px;
+            /* position: relative; */
+            padding: 0px;
+            left: 30px;
+            align-items: center;
+            text-align: center;
+            box-shadow: 5px 12px #908e8e;
+        }
+        .div1,.div3{
+            margin: 30px;
+        }
+        .div2{
+           margin-top: 15px;
+        }
+        .lab1,.lab2,.lab3{
+            background-color: rgb(58, 147, 150);
+            width: 100%;
+            padding: 0% 39% 10% 39%;
+            border-radius: 7px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            font-size: 30px;  
+            align-content: center;   
+            text-align: center; 
+            color: aliceblue;
+        }
+        .lab2{
+            background-color: rgb(224, 53, 53);
+            padding: 0% 33% 10% 32%;
+        }.lab3{
+            padding: 0% 32% 10% 32%;
+        }
+        .ul1{
+            margin-top: 50px;
+            align-content: center;
+            margin-left: 0%;
+        }
+        .y::before{
+            content: "✔️";
+        }
+        .n::before{
+            content: "🗙";
+            margin: 0%;
+            color: tomato;
+        }
+        .buy{
+            background-color: rgb(58, 147, 150);
+            width: 70%;
+            height: 30%;
+            padding:13px;
+            border-radius: 8px;
+            font-size: large;
+            color: aliceblue;
+        }
+        span{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+       <div>
+        <label class="lab1">Basic</label>
+        <div class="ul1">
+            <span class="y">Hosting</span>
+            <span class="n">Domain</span>
+            <span class="y">10GB Space</span>
+            <span class="n">Free SSL</span>
+            <span class="y">Website Host</span>
+        </div>
+        <h2>$5</h2>
+        <button class="buy">Buy Now</button>
+       </div>
+    </div>
+
+    <div class="div2">
+        <div>
+            <label class="lab2">Standard</label>
+            <div class="ul1">
+                <span class="y">Hosting</span>
+                <span class="y">Domain</span>
+                <span class="y">10GB Space</span>
+                <span class="n">Free SSL</span>
+                <span class="y">Website Host</span>
+            </div>
+            <h2>$10</h2>
+            <button class="buy">Buy Now</button>
+           </div>
+        </div>
+    </div>
+
+    <div class="div3">
+        <div>
+            <label class="lab3">Premium</label>
+            <div class="ul1">
+                <span class="y">&nbsp;Hosting</span>
+                <span class="y">Domain</span>
+                <span class="y">10GB Space</span>
+                <span class="y">Free SSL</span>
+                <span class="y">Website Host</span>
+            </div>
+            <h2>$20</h2>
+            <button class="buy">Buy Now</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

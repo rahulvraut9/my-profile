@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <style>
+        hr{
+            width: 90%;
+            margin-top: 40px;
+        }
+        .container{
+            width: 30%;
+            background-color: rgb(142, 142, 236);
+            border-radius: 9px;
+            box-shadow: 5px 5px 8px 5px #9bb0f0;
+            height: auto;
+            margin: auto;
+        }
+        p{
+            background-color: rgb(121, 121, 247);
+            width: 80%;
+            margin: 5%;
+            border-radius: 9px;
+            padding: 20px;
+            padding-bottom: 40px;
+            line-height: 30px;
+        }
+        label{
+            display: block;
+            margin-left: 5%;
+            margin-bottom: 3px;
+        }
+        
+        .reasion{
+            width: 90%;
+            margin-left: 5%;
+            height: 40px;
+            padding: 0;
+            border-radius: 5px;
+            background-color: rgb(143, 143, 242);
+            color: black;
+        }
+        .text{
+            width: 90%;
+            margin-left: 5%;
+            height: 30px;
+            padding: 0;
+            border-radius: 5px;
+            background-color: rgb(143, 143, 242);
+        }
+        .sub{
+            margin-top:30px;
+            margin-left:30px;
+        }
+        .sub h2{
+            margin-top: 30px;
+        }
+        .btn{
+            border-radius: 10px;
+            height: 30px;
+            margin-left: 300px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            background-color: rgb(121, 121, 247);   
+        }
+        span{
+            color: red;
+        }
+        .lab{
+            margin-top: 20px;
+        }
+        ::placeholder{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub">
+            <h2>Subscriber</h2>
+        </div>
+        <hr>
+            <p>
+                We're sorry to see you go, but hey, no hard
+                feelings, hopefully we will see you back
+                one day.
+                Please fill in your email address in order to
+                unsubscribe from the list.
+                You will receive an email to confirm your
+                unsubscription, just to make sure this is
+                not an accident or somebody else fries to
+                unsubscribe you
+            </p>
+            <label for="">Email<span>*</span> </label>
+            <input type="email" class="text">
+            <br>
+            <label class="lab">Unsubscribe Reason</label>
+            <input type="text" placeholder="Unsubscribe Reasion" name="" class="reasion">
+            <hr>
+            <button class="btn">Unsubscribe</button>
+    </div>
+</body>
+</html>
